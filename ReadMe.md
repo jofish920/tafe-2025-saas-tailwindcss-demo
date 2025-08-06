@@ -23,6 +23,15 @@ npm install
 
 ## Run the Development Server
 
+We are using VITE to run a development server.
+
+Vite is like "make" on Linux and for other systems, and acts as a build application that 
+performs actions automatically.
+
+Vite provides:
+- dev - used to automatically watch and compile CSS/JS when developing 
+- build - used to create production copies of the CSS/JS 
+
 In the same shell execute:
 
 ```shell
