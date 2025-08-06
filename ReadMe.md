@@ -34,16 +34,23 @@ Open a browser and go to: http://localhost:5173/
 - Localhost is the local computer/host (the one in front of you)
 - 5173 is the port that Vite is listening on for requests
 
-
 # Components & Icons
 
-Components are from [HyperUI -https://www.hyperui.dev/](https://www.hyperui.dev/).
+We have been using the following libraries to help with this demo:
 
-Icons are from FontAwesome (Free)
+- Components are from [HyperUI -https://www.hyperui.dev/](https://www.hyperui.dev/).
+- Icons are from [FontAwesome (Free) - https://fontawesome.com](https://fontawesome.com)
 
+There are MANY possible options for UI components and Icons.
 
-In your About page, please provide a link back to the source of ANY components, icons etc. 
-you use in your designs.
+When selecting, please make sure you are using UI components that are TailwindCSS v4
+compatible.
+
+Any costs in using any of the components, icons and other sources are the responsibility of
+the user, and not the authors.
+
+> In your About page, please provide a link back to the source of ANY components, icons etc.
+> you use in your designs.
 
 
 
