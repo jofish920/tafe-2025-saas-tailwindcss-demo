@@ -5,3 +5,55 @@
 
 @import "@fortawesome/fontawesome-free/css/all.css";
 
+@theme {
+
+    --font-serif: 'Corben', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+    --color-avocado-50: oklch(98.6% 0.031 107.51);
+    --color-avocado-100: oklch(96.671% 0.06171 109.08);
+    --color-avocado-200: oklch(93.743% 0.11643 111.07);
+    --color-avocado-300: oklch(89.614% 0.18014 113.42);
+    --color-avocado-400: oklch(83.986% 0.21686 115.6);
+    --color-avocado-500: oklch(76.657% 0.20657 117.6);
+    --color-avocado-600: oklch(64.629% 0.16829 118.44);
+    --color-avocado-700: oklch(53% 0.12 118.34);
+    --color-avocado-800: oklch(45.167% 0.09933 117.68);
+    --color-avocado-900: oklch(40.433% 0.08867 117.81);
+    --color-avocado-950: oklch(27.4% 0.072 118.86);
+
+}
+
+@utility btn {
+    @apply px-12 py-3 m-1 font-medium align-middle;
+    @apply bg-gray-200 hover:bg-gray-700;
+    @apply text-gray-700 hover:text-gray-200;
+    @apply border border-gray-400 hover:border-gray-900;
+    @apply hover:shadow-none shadow;
+    @apply rounded ;
+    @apply transition ease-in-out duration-500;
+    @apply inline-block;
+    @apply focus:ring-3 focus:outline-hidden w-1/2;
+}
+
+/* Define Additional Button CSS classes
+   that extend the `.btn` to use its own
+   colours and other formatting
+ */
+@layer components {
+    /* avocado Button Component */
+    .btn-primary {
+        @apply btn;
+        @apply bg-avocado-200 hover:bg-avocado-700;
+        @apply text-avocado-700 hover:text-avocado-200;
+        @apply border border-avocado-700 hover:border-avocado-200;
+    }
+
+    /* Secondary Button Component */
+    .btn-secondary {
+        @apply btn;
+        @apply bg-pink-200 hover:bg-pink-700;
+        @apply text-pink-700 hover:text-pink-200;
+        @apply border border-pink-700 hover:border-pink-200;
+    }
+
+}
