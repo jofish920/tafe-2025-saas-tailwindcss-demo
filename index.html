@@ -12,216 +12,160 @@
     <!-- JS Files -->
 
 </head>
-<body class="bg-stone-100">
-<header class="bg-stone-500 text-white flex gap-16 p-4 mb-12">
-    <h1 class="text-3xl font-bold">
-        <i class="fa-solid fa-worm text-3xl"></i>
-        <span class="sr-only">ICON</span>
-    </h1>
-    <nav>
-        <ul class="text-stone-900 flex gap-1">
-            <li><a href="#"
-                   class="hover:text-white transition
-                           ease-in-out p-2">Link 1</a></li>
-            <li><a href="#"
-                   class="hover:text-white transition
-                           ease-in-out p-2">Link 2</a></li>
-            <li><a href="#"
-                   class="hover:text-white transition
-                           ease-in-out p-2">Link 3</a></li>
-            <li><a href="#"
-                   class="hover:text-white transition
-                           ease-in-out p-2">Link 4</a></li>
-        </ul>
-    </nav>
-</header>
-<main class="w-8/10 bg-white mx-auto p-4">
-    <!--    article>(header>h2{Article})+section{Section}+footer>(section{Footer part $}*2) -->
-    <article>
-        <header class="mb-6">
-            <h2 class="text-3xl">PHP Storm Plugins</h2>
+<body>
+<div class="bg-gray-900 m-0 p-0 text-gray-200 ">
+    <header class="text-gray-600 body-font container mx-auto flex flex-row p-5 mb-6 justify-between items-center">
+
+        <h1>
+            <a class="flex title-font font-medium items-center text-gray-400 mb-4 md:mb-0">
+                <span><i class="fa fa-worm text-3xl text-gray-200"></i></span>
+                <span class="ml-3 text-xl inline-block">Company Name</span>
+            </a>
+        </h1>
+
+
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4
+            text-gray-500
+            flex flex-wrap items-center text-base justify-left grow">
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
+                First Link
+            </a>
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
+                Second Link
+            </a>
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
+                Third Link
+            </a>
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-b-gray-200">
+                Fourth Link
+            </a>
+        </nav>
+
+
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4
+            text-gray-500
+            flex flex-wrap items-center text-base justify-right">
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
+                Login
+            </a>
+            <a class="mr-5 py-2
+              hover:text-gray-100
+              border-0 border-b-2 border-b-gray-500 hover:border-gray-200">
+                Register
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main class="min-h-screen flex flex-col gap-8
+             container grow w-full overflow-hidden
+             px-6 mx-auto
+             bg-white text-gray-700">
+
+        <!-- Page Heading -->
+        <header class="-mx-6
+                     bg-gray-700 text-gray-200
+                       py-6 px-4 sm:px-6 lg:px-8">
+            <h2 class="font-bold text-2xl leading-tight">
+                Page Title/Name
+            </h2>
         </header>
 
+        <section class="gap-6 flex flex-col">
 
-        <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-            <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-                <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-                    <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit
-                    </h2>
+            <p>This is section content</p>
 
-                    <p class="hidden text-gray-500 md:mt-4 md:block">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas
-                        tempus tellus etiam
-                        sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue.
-                        Aliquet amet volutpat
-                        quisque ut interdum tincidunt duis.
-                    </p>
-
-                    <div class="mt-4 md:mt-8">
-                        <a
-                                href="#"
-                                class="inline-block rounded-sm bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden"
-                        >
-                            Get Started Today
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <img
-                    alt=""
-                    src="https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                    class="h-56 w-full object-cover sm:h-full"
-            />
-        </section>
-
-        <section class="grid grid-cols-2 mt-8 ">
-            <section class="bg-gray-100 p-4">
-                <h4 class="text-xl font-semibold mb-4">Contact us</h4>
-                <p>Got a question for us? Please use the contact form on the right.</p>
-            </section>
-            <section class="bg-gray-300 p-4">
-                <form action="#"
-                      method="POST"
-                      class="border border-gray-500 bg-gray-50 p-4">
-
-                    <div class="">
-                        <label for="Email"
-                               class="text-sm font-medium text-gray-700"> Email
-                        </label>
-
-                        <input
-                                type="email"
-                                id="Email"
-                                class="p-1 mt-0.5 w-full rounded
-                                     border-gray-300 focus:border-blue-300
-                                     focus:ring-blue-500 active:ring-blue-500
-                                     active:bg-blue-300
-                                       shadow-sm sm:text-sm
-                                       "
-                        />
-                    </div>
-
-                    <div>
-                        <label for="Subject">
-                            <span class="text-sm font-medium text-gray-700"> Subject </span>
-
-                            <select
-                                    name="subject"
-                                    id="Subject"
-                                    class="mt-0.5 p-1 w-full rounded border-gray-300 shadow-sm sm:text-sm"
-                            >
-                                <option value="" selected disabled>Please select</option>
-                                <option value="support">Support</option>
-                                <option value="project">Project Discussion</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </label>
-                    </div>
-
-                    <label for="Message">
-                                <span class="text-sm font-medium text-gray-700"> Message </span>
-
-                                <textarea
-                                        id="Message"
-                                        name="message"
-                                        class="mt-0.5 p-1 w-full resize-none rounded border-gray-300 shadow-sm sm:text-sm"
-                                        rows="4"
-                                ></textarea>
-                        </label>
-
-                        <div class="flex flex-row justify-end">
-                            <a class="inline-block rounded-sm
-                                border border-indigo-600 bg-indigo-600
-                                px-12 py-3
-                                text-sm font-medium text-white
-                                hover:bg-transparent hover:text-indigo-600
-                                focus:ring-3 focus:outline-hidden"
-                               href="#"
-                            >
-                                Send Message
-                            </a>
-
-                        </div>
-
-                </form>
-            </section>
-        </section>
-
-
-        <section>
-            <ul>
-                <li>
-                    <pre>.ignore</pre>
-                </li>
-                <li>
-                    <pre>Rainbow Brackets</pre>
-                </li>
-                <li>
-                    <pre>Material UI Lite</pre>
-                </li>
-                <li>
-                    <pre>PHP Annotations</pre>
-                </li>
-                <li>
-                    <pre>Tailwind CSS Smart Completions</pre>
-                </li>
-                <li>
-                    <pre>Key Promoter X</pre>
-                </li>
-                <li>
-                    <pre>Atom Material Icons</pre>
-                </li>
-                <li>
-                    <pre>CSV Editor</pre>
-                </li>
-            </ul>
-            <p>Section</p>
-            <!--            p*3>lorem -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio id incidunt
-                ipsam nostrum perspiciatis quaerat! Dolores, esse inventore magni quisquam
-                repellendus sed unde! Adipisci laboriosam magni reprehenderit vel voluptas
-                voluptate.</p>
-            <p>Blanditiis deleniti ipsam possimus quae voluptatum. Accusamus, animi asperiores
-                autem cumque debitis deleniti dolor esse expedita facere magnam neque nisi nobis
-                pariatur perferendis quaerat quia sint tempora ut vel veritatis.</p>
-            <p>Accusamus aut, error iure magnam nisi nobis officiis placeat? Fugiat ipsa ipsam
-                nesciunt possimus sit. Itaque, rerum vel? Consectetur dolores enim excepturi
-                inventore iusto non saepe sint temporibus? Dignissimos, quisquam!</p>
-        </section>
-
-        <footer>
-            <section>
-                <p>
-                    © Copyright 2025, Adrian Gould. All rights reserved.
+            <blockquote class="bg-gray-100 border-l-8 border-r-gray-600 mx-6 p-2 pl-6 italic">
+                <p class="text-xl text-gray-600">
+                    Using a block quote as a "call out".
                 </p>
-            </section>
-            <section>
-                <!--                p*3>a[href=#]{Link $} -->
-                <p><a href="#">Home</a></p>
-                <p><a href="#">About</a></p>
-                <p><a href="#">Support</a></p>
-                <p><a href="#">Contact us</a></p>
-            </section>
-        </footer>
-    </article>
-</main>
+            </blockquote>
+
+            <p>This is section content</p>
+
+        </section>
+
+    </main>
+
+    <footer class="p-8 pb-12 mt-8 mx-auto
+            container grow w-full overflow-hidden
+            gap-12 flex flex-wrap justify-between">
+
+        <nav>
+            <h5 class="text-left font-medium tracking-widest text-gray-500 uppercase title-font text-xs">
+                Terms & Conditions
+            </h5>
+
+            <a class="my-1 block" href="/#">
+                Privacy Policy
+                <span class="text-sky-600 text-xs p-1">TBA</span>
+            </a>
+
+            <a class="my-1 block" href="/#">
+                Terms & Conditions
+                <span class="text-sky-600 text-xs p-1">TBA</span>
+            </a>
+
+            <p class="mt-4 text-sm capitalize text-gray-400">
+                © Copyright 2025 NAME/COMPANY. All rights reserved
+            </p>
+        </nav>
+
+        <nav>
+            <h5 class="text-left font-medium tracking-widest text-gray-500 uppercase title-font text-xs">
+                Support
+            </h5>
+
+            <a class="my-1 block" href="https://help.screencraft.net.au">
+                Help Center
+                <span class="text-sky-600 text-xs p-1">New</span>
+            </a>
+            <a class="my-1 block" href="https://help.screencraft.net.au/hc/2680392001">
+                FAQs
+                <span class="text-sky-600 text-xs p-1">New</span>
+            </a>
+
+        </nav>
 
 
-<div
-        class="fixed inset-x-0 bottom-0 z-auto border-t
-                border-red-800 bg-red-900 px-4 py-8 text-white"
->
-    <p class="text-center font-medium">
-        Lorem, ipsum dolor
-        <a href="#" class="inline-block underline"> sit amet consectetur </a>
-    </p>
+        <nav>
+            <h5 class="text-left font-medium tracking-widest text-gray-500 uppercase title-font text-xs">
+                About
+            </h5>
+
+            <a class="my-1 block" href="/about">
+                Personal and project Information
+                <span class="text-sky-600 text-xs p-1"></span>
+            </a>
+
+            <a class="my-1 block" href="https://github.com/YOUR_GITHUB_NAME">
+                GitHub Profile
+                <span class="text-sky-600 text-xs p-1">New</span>
+            </a>
+
+            <a class="my-1 block" href="#contact">
+                Contact Us
+                <span class="text-sky-600 text-xs p-1">New</span>
+            </a>
+
+            <a href="#page-top" class="bock mt-6 text-sm text-gray-400">Jump to Top</a>
+
+        </nav>
+
+    </footer>
+
 </div>
-
-<footer>
-
-</footer>
 
 </body>
 </html>
