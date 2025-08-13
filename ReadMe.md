@@ -21,6 +21,9 @@ cd tailwindcss-demo-2025-s2
 npm install
 ```
 
+> **IMPORTANT** You will need Node.JS version 22.18+ or 24.4+ to run vite and other NPM 
+> packages.
+
 ## Run the Development Server
 
 We are using VITE to run a development server.
@@ -62,5 +65,12 @@ the user, and not the authors.
 > you use in your designs.
 
 
+
+
+# Resources
+
+https://dev.to/masumparvej/7-free-font-awesome-alternatives-in-2025-138e
+
+https://octet.design/journal/free-icon-sets/
 
 
